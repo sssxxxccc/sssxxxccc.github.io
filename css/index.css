@@ -1016,9 +1016,7 @@ body::after {
   overflow: auto;
   position: relative;
   max-height: 70vh;
-  white-space: normal;
-  word-wrap: break-word;
-  word-break: break-word;
+  white-space: nowrap;
 }
 .sidebar-toc .toc-child {
   display: none;
@@ -1494,6 +1492,9 @@ body::after {
 }
 .post-meta-item--updatetime {
   color: #49b1f5;
+}
+.post-meta-item--wordcount {
+  color: var(--color-gray-700);
 }
 .post-meta-item--readtime {
   color: #49b1f5;
